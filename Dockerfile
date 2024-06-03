@@ -1,5 +1,5 @@
 FROM bipinkrish/file-converter:latest
-RUN apt install iputils-ping -y
+RUN apt install iputils-ping
 
 COPY . .
 RUN chmod 777 c41lab.py negfix8 tgsconverter c4go
